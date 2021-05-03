@@ -10,7 +10,7 @@ const Panel = (props) => {
                 </div>
             </div>
             <div className='panel-square flex-column center-items'>
-                <h3>Complete website coming soon</h3>
+                <img src={props.image} alt={props.imageAlt}/>
             </div>
         </section>
     );

@@ -26,8 +26,12 @@ const index = () => {
             <Panel
                 title={'About.'}
                 copy={
-                    "I am extremely passionate about coding. Currently I spend most of my waking hours improving my skill and learning new concepts in coding. I have a knack for design and working with front-end frameworks such as React, Nodejs, and Angular."
-                }></Panel>
+                    "Working professional with over 10 years of experience working in the tech industry. Over 4 years of experience working as a Fullstack Software Engineer. I have a knack and passion for design and working with front-end frameworks such as React, Nodejs, and Angular."
+                }
+                image={'/IMG_4578.JPG'}
+                imageAlt={'amsterdam'}>
+
+                </Panel>
                 <Footer></Footer>
         </Layout>
     );
